@@ -1,0 +1,165 @@
+/*общие свойства*/
+html {
+    text-align: center;
+
+    ul {
+        list-style-type: none;
+    }
+
+    h2 {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.13px;
+        letter-spacing: 0em;
+    
+    }
+    address {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        }
+}
+
+/*хедер*/
+.header-icon {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 600;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.header-list {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+/*hero секция*/
+.hero-title {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: center;      
+}
+
+.hero-sub-title {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+
+
+/*Биография*/
+.bio-head {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 115px;
+    letter-spacing: 0em;
+}
+
+.bio-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.bio-bq {
+    font-family: Bitter;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+}
+
+/*тексты разделов Designers и Testimonials имеют одинаковую структуру, поэтому сделал общими свойствами*/
+.text-strong {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0em;
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 0em;
+}
+
+/*раздел Testimonials*/
+.bq-testi {
+    font-family: Bitter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/*раздел Strong points*/
+.sp-title{
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 86px;
+    letter-spacing: 0em;
+    text-align: left;       
+}
+
+.sp-list{
+    font-family: Bitter;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+/*раздел footer*/
+.foot{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.9px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+}
+
+.foot-mod{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.13px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.foot-copy{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: right;   
+}
