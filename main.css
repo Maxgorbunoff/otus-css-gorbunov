@@ -1,165 +1,172 @@
 /*общие свойства*/
-html {
-    text-align: center;
 
-    ul {
-        list-style-type: none;
-    }
-
-    h2 {
-        font-family: Roboto;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 28.13px;
-        letter-spacing: 0em;
-    
-    }
-    address {
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;
-        letter-spacing: 0px;
-        text-align: left;
-        }
+ul {
+    list-style-type: none;
 }
 
-/*хедер*/
-.header-icon {
+* {
+    letter-spacing: 0em;
+}
+
+/* шрифты повторяемые свойства*/
+.header-icon,
+.hero-title,
+.bio-head,
+.sp-title {
     font-family: Playfair Display;
     font-size: 86px;
-    font-weight: 600;
-    line-height: 103px;
-    letter-spacing: 0em;
+}
+
+.header-list,
+.hero-sub-title,
+.bio-text,
+.text-strong,
+.text,
+.foot,
+.foot-mod,
+.foot-copy,
+h2,
+address {
+    font-family: Roboto;
+}
+
+.bio-bq,
+.bq-testi,
+.sp-list {
+    font-family: Bitter;
+}
+
+.text-strong,
+h2 {
+    font-weight: 700;
+}
+
+.header-list,
+.hero-title,
+.hero-sub-title,
+.bio-head,
+.bio-text,
+.sp-title,
+.foot {
+    font-weight: 500;
+}
+
+.bio-bq,
+.text,
+.bq-testi,
+.sp-list,
+.foot-copy,
+address {
+    font-weight: 400;
+}
+
+.hero-title,
+.hero-sub-title,
+.bq-testi,
+.foot {
+    text-align: center;
+}
+
+.header-icon,
+.sp-title,
+.sp-list,
+address {
     text-align: left;
 }
 
+.foot-copy,
+.h2-bio
+.h2-tes {
+    text-align: right;
+}
 
-.header-list {
-    font-family: Roboto;
+.text-strong,
+.text,
+.foot-copy,
+address {
+    font-size: 16px;
+}
+
+.header-list,
+.foot-mod,
+h2 {
     font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0em;
+}
+
+.bio-text,
+.foot {
+    font-size: 18px;
+}
+
+.header-icon,
+.hero-title {
+    line-height: 103px;
+}
+
+.bio-bq,
+address {
+    line-height: 26px;
+}
+
+h2,
+.foot-mod {
+    line-height: 28.13px;
+}
+
+.text-strong,
+.text {
+    line-height: 18.75px;
+}
+
+/*---------Свойства разделов-------*/
+/*хедер*/
+.header-icon {
+    font-weight: 600;
 }
 
 /*hero секция*/
-.hero-title {
-    font-family: Playfair Display;
-    font-size: 86px;
-    font-weight: 500;
-    line-height: 103px;
-    letter-spacing: 0em;
-    text-align: center;      
-}
 
 .hero-sub-title {
-    font-family: Roboto;
     font-size: 20px;
-    font-weight: 500;
     line-height: 23px;
-    letter-spacing: 0em;
-    text-align: center;    
 }
 
 
 /*Биография*/
 .bio-head {
-    font-family: Playfair Display;
-    font-size: 86px;
-    font-weight: 500;
     line-height: 115px;
-    letter-spacing: 0em;
 }
 
 .bio-text {
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 500;
     line-height: 21px;
-    letter-spacing: 0em;
 }
 
 .bio-bq {
-    font-family: Bitter;
-    font-size: 26px;
-    font-weight: 400;
     line-height: 31px;
-    letter-spacing: 0em;
 }
 
-/*тексты разделов Designers и Testimonials имеют одинаковую структуру, поэтому сделал общими свойствами*/
-.text-strong {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 18.75px;
-    letter-spacing: 0em;
-}
-
-.text {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18.75px;
-    letter-spacing: 0em;
-}
 
 /*раздел Testimonials*/
 .bq-testi {
-    font-family: Bitter;
     font-size: 32px;
-    font-weight: 400;
     line-height: 38px;
-    letter-spacing: 0em;
-    text-align: center;
 }
 
 /*раздел Strong points*/
-.sp-title{
-    font-family: Playfair Display;
-    font-size: 86px;
-    font-weight: 500;
-    line-height: 86px;
-    letter-spacing: 0em;
-    text-align: left;       
-}
-
-.sp-list{
-    font-family: Bitter;
+.sp-list {
     font-size: 34px;
-    font-weight: 400;
     line-height: 41px;
-    letter-spacing: 0em;
-    text-align: left;
-    
 }
 
 /*раздел footer*/
-.foot{
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 500;
+.foot {
     line-height: 21.9px;
-    letter-spacing: 0px;
-    text-align: center;
-    
 }
 
-.foot-mod{
-    font-family: Roboto;
-    font-size: 24px;
+.foot-mod {
     font-weight: 900;
-    line-height: 28.13px;
-    letter-spacing: 0px;
-    text-align: center;
 }
 
-.foot-copy{
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
+.foot-copy {
     line-height: 19px;
-    letter-spacing: 0px;
-    text-align: right;   
 }
