@@ -1,172 +1,149 @@
 /*общие свойства*/
+html {
+    text-align: center;
+    letter-spacing: 0em;
+}
 
 ul {
     list-style-type: none;
 }
 
-* {
-    letter-spacing: 0em;
-}
-
-/* шрифты повторяемые свойства*/
-.header-icon,
-.hero-title,
-.bio-head,
-.sp-title {
-    font-family: Playfair Display;
-    font-size: 86px;
-}
-
-.header-list,
-.hero-sub-title,
-.bio-text,
-.text-strong,
-.text,
-.foot,
-.foot-mod,
-.foot-copy,
-h2,
-address {
+h2 {
     font-family: Roboto;
-}
-
-.bio-bq,
-.bq-testi,
-.sp-list {
-    font-family: Bitter;
-}
-
-.text-strong,
-h2 {
-    font-weight: 700;
-}
-
-.header-list,
-.hero-title,
-.hero-sub-title,
-.bio-head,
-.bio-text,
-.sp-title,
-.foot {
-    font-weight: 500;
-}
-
-.bio-bq,
-.text,
-.bq-testi,
-.sp-list,
-.foot-copy,
-address {
-    font-weight: 400;
-}
-
-.hero-title,
-.hero-sub-title,
-.bq-testi,
-.foot {
-    text-align: center;
-}
-
-.header-icon,
-.sp-title,
-.sp-list,
-address {
-    text-align: left;
-}
-
-.foot-copy,
-.h2-bio
-.h2-tes {
-    text-align: right;
-}
-
-.text-strong,
-.text,
-.foot-copy,
-address {
-    font-size: 16px;
-}
-
-.header-list,
-.foot-mod,
-h2 {
     font-size: 24px;
-}
-
-.bio-text,
-.foot {
-    font-size: 18px;
-}
-
-.header-icon,
-.hero-title {
-    line-height: 103px;
-}
-
-.bio-bq,
-address {
-    line-height: 26px;
-}
-
-h2,
-.foot-mod {
+    font-weight: 700;
     line-height: 28.13px;
 }
 
-.text-strong,
-.text {
-    line-height: 18.75px;
+address {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
 }
 
-/*---------Свойства разделов-------*/
 /*хедер*/
 .header-icon {
+    font-family: Playfair Display;
+    font-size: 86px;
     font-weight: 600;
+    line-height: 103px;
+    text-align: left;
+}
+
+
+.header-list {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
 }
 
 /*hero секция*/
+.hero-title {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 103px;
+    text-align: center;
+}
 
 .hero-sub-title {
+    font-family: Roboto;
     font-size: 20px;
+    font-weight: 500;
     line-height: 23px;
+    text-align: center;
 }
 
 
 /*Биография*/
 .bio-head {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
     line-height: 115px;
 }
 
 .bio-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
     line-height: 21px;
 }
 
 .bio-bq {
+    font-family: Bitter;
+    font-size: 26px;
+    font-weight: 400;
     line-height: 31px;
 }
 
+/*тексты разделов Designers и Testimonials имеют одинаковую структуру, поэтому сделал общими свойствами*/
+.text-strong {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
 
 /*раздел Testimonials*/
 .bq-testi {
+    font-family: Bitter;
     font-size: 32px;
+    font-weight: 400;
     line-height: 38px;
+    text-align: center;
 }
 
 /*раздел Strong points*/
+.sp-title {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 86px;
+    text-align: left;
+}
+
 .sp-list {
+    font-family: Bitter;
     font-size: 34px;
+    font-weight: 400;
     line-height: 41px;
+    text-align: left;
+
 }
 
 /*раздел footer*/
 .foot {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
     line-height: 21.9px;
+    text-align: center;
+
 }
 
 .foot-mod {
+    font-family: Roboto;
+    font-size: 24px;
     font-weight: 900;
+    line-height: 28.13px;
+    text-align: center;
 }
 
 .foot-copy {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 19px;
+    text-align: right;
 }
