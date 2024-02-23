@@ -1,7 +1,7 @@
 body {
-width: 100%;
-margin: 0;
-padding: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -25,28 +25,49 @@ padding: 0;
 }
 
 .hero {
+    background: url("./img/inside-weather-Uxqlfigh6oE-unsplash.jpg") no-repeat center / cover;
+    padding: 135px 0px 135px 0;
+
+    .hero-content {
+        display: block;
+        box-sizing: border-box;
+        background-color: white;
+        width: 690px;
+        height: 360px;
+        margin: 0 auto;
+        padding: 20px 110px 20px 110px;
+        justify-content: center;
+
+        .hero-title {
+            padding-top: 90px;
+        }
+
+    }
+}
+
+.Biography {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    box-sizing: border-box;
     width: 100%;
-    .hero-content-img{
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-    }
-    
-    .hero-content{
-        box-sizing: border-box;
-        z-index: 2;
-        width: 690px;
-        margin: -74vw;
-        background-color: white;
+    height: 840px;
+    padding: 138px;
 
-        padding: 110px 20px 110px 20px;
+    .Biography img {
+        width: 571px;
+        height: 840px;
+
 
     }
 
+    .bio-text-full {
+        padding-left: 139px;
+        width: 571px;
+        height: 840px;
+    }
 }
+
+
 
 
 
