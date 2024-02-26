@@ -1,7 +1,9 @@
 body {
     width: 100%;
+    min-width: 1440px;
     margin: 0;
     padding: 0;
+
 }
 
 .header {
@@ -48,23 +50,37 @@ body {
 .Biography {
     display: flex;
     flex-direction: row;
-    box-sizing: border-box;
-    width: 100%;
+    box-sizing: content-box;
     height: 840px;
-    padding: 138px;
+    padding: 150px 138px 150px 138px;
+    justify-content: center;
 
     .Biography img {
+        display: inherit;
         width: 571px;
         height: 840px;
 
+    }
 
+    .bio {
+        width: 139px;
+        height: 840px;
+        padding-top: 25px;
     }
 
     .bio-text-full {
-        padding-left: 139px;
-        width: 571px;
-        height: 840px;
+        width: 455px;
+        align-items: center;
+        text-align: left;
+        padding-top: 173px;
+
+        .bio-head, .bio-text, .bio-bq p{
+            margin: 0px;
+            padding-bottom: 36px;
+        }
     }
+
+
 }
 
 
