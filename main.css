@@ -1,7 +1,6 @@
 body {
     width: 100%;
-    min-width: 1440px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 
 }
@@ -52,29 +51,28 @@ body {
     flex-direction: row;
     box-sizing: content-box;
     height: 840px;
-    padding: 150px 138px 150px 138px;
-    justify-content: center;
+    padding: 150px 9.548% 150px 9.548%;
+    justify-content: space-evenly;
 
     .Biography img {
-        display: inherit;
-        width: 571px;
-        height: 840px;
-
+        width: 39.652%;
     }
 
     .bio {
-        width: 139px;
-        height: 840px;
-        padding-top: 25px;
+        width: 9.652%;
     }
 
     .bio-text-full {
-        width: 455px;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 37.2%;
         text-align: left;
-        padding-top: 173px;
+        justify-content: center;
 
-        .bio-head, .bio-text, .bio-bq p{
+        .bio-head,
+        .bio-text,
+        .bio-bq,
+        .bio-bq p {
             margin: 0px;
             padding-bottom: 36px;
         }

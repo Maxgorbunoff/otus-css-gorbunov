@@ -6,6 +6,9 @@ html {
 
 ul {
     list-style-type: none;
+    padding-inline: 0px;
+    margin-block: 0;
+
 }
 
 h2 {
@@ -13,6 +16,8 @@ h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 28.13px;
+    margin-block: 0px;
+    margin-inline: 0px;
 }
 
 address {
@@ -86,6 +91,8 @@ address {
 
 .Biography h2 {
     transform: rotate(-90deg);
+    margin-top: 80px;
+    margin-right: 75px;
 }
 
 /*тексты разделов Designers и Testimonials имеют одинаковую структуру, поэтому сделал общими свойствами*/
