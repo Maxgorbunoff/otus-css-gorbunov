@@ -1,0 +1,153 @@
+/*общие свойства*/
+html {
+    text-align: center;
+    letter-spacing: 0em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+}
+
+address {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+/*хедер*/
+.header-icon {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 600;
+    line-height: 103px;
+    text-align: left;
+}
+
+
+.header-list {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/*hero секция*/
+.hero-title {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 103px;
+    text-align: center;
+    margin: 0px 0px 14px 0px;
+
+}
+
+.hero-sub-title {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+/*Биография*/
+.bio-head {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 115px;
+}
+
+.bio-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.bio-bq {
+    font-family: Bitter;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+/*тексты разделов Designers и Testimonials имеют одинаковую структуру, поэтому сделал общими свойствами*/
+.text-strong {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
+/*раздел Testimonials*/
+.bq-testi {
+    font-family: Bitter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+}
+
+/*раздел Strong points*/
+.sp-title {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 86px;
+    text-align: left;
+}
+
+.sp-list {
+    font-family: Bitter;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: left;
+
+}
+
+/*раздел footer*/
+.foot {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.9px;
+    text-align: center;
+
+}
+
+.foot-mod {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.13px;
+    text-align: center;
+}
+
+.foot-copy {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: right;
+}

@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="typography.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,44 +14,46 @@
 </head>
 
 <body>
-    <header>
-        <p class="header-icon">MOD</p>
+    <header class="header">
+        <p class="header-icon">Mod</p>
         <nav class="header-list">
             <ul>
-                <li><a href="#1">Biography</a></li>
-                <li><a href="#2">Designers</a></li>
-                <li><a href="#3">Testimonials</a></li>
-                <li><a href="#4">Strong points</a></li>
+                <li class="header-list-li"><a href="#1">Biography</a></li>
+                <li class="header-list-li"><a href="#2">Designers</a></li>
+                <li class="header-list-li"><a href="#3">Testimonials</a></li>
+                <li class="header-list-li"><a href="#4">Strong points</a></li>
             </ul>
         </nav>
     </header>
     <main>
 
-        <article>
-            <img src="./img/inside-weather-Uxqlfigh6oE-unsplash.jpg" alt="hero photo" />
-            <header class="hero-title">
-                <h1>Mod Studio</h1>
-            </header>
-            <p class="hero-sub-title">Modern Web Studio</p>
+        <article class="hero">
+            <div class="hero-content">
+                <h1 class="hero-text hero-title">Mod Studio</h1>
+                <p class="hero-text hero-sub-title">Modern Web Studio</p>
+            </div>
         </article>
 
-        <article>
+        <article class="Biography">
+            <img src="./img/jared-weiss-P3cB0ynqYBw-unsplash.jpg" alt="Katya Mills photo" />
             <header id="1">
                 <h2>Biography</h2>
             </header>
-            <img src="./img/jared-weiss-P3cB0ynqYBw-unsplash.jpg" alt="Katya Mills photo" />
-            <h3 class="bio-head">Katya Mills</h3>
-            <p class="bio-text">Art Director</p>
-            <ul class="bio-text">
-                <li>Scenography</li>
-                <li>/Styling</li>
-                <li>/Creative Photography</li>
-                <li>/Design</li>
-            </ul>
-            <blockquote class="bio-bq">
-                <p>“The more I deal with the work as something that is my own, as something that is personal, the more
-                    successful it is.”</p>
-            </blockquote>
+            <div class="bio-text-full">
+                <h3 class="bio-head">Katya Mills</h3>
+                <p class="bio-text">Art Director</p>
+                <ul class="bio-text">
+                    <li>Scenography</li>
+                    <li>/Styling</li>
+                    <li>/Creative Photography</li>
+                    <li>/Design</li>
+                </ul>
+                <blockquote class="bio-bq">
+                    <p>“The more I deal with the work as something that is my own, as something that is personal, the
+                        more
+                        successful it is.”</p>
+                </blockquote>
+            </div>
         </article>
 
         <article>
