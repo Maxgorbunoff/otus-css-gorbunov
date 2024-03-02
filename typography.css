@@ -91,8 +91,8 @@ address {
 
 .Biography h2 {
     transform: rotate(-90deg);
-    margin-top: 80px;
-    margin-right: 75px;
+    margin-top: 52px;
+    margin-right: 20px;
 }
 
 /*тексты разделов Designers и Testimonials имеют одинаковую структуру, поэтому сделал общими свойствами*/
