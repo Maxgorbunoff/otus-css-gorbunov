@@ -52,7 +52,7 @@ body {
     flex-direction: row;
     box-sizing: content-box;
     height: 840px;
-    padding: 150px 9.548% 150px 9.548%;
+    margin: 150px 9.548% 150px 9.548%;
     justify-content: space-evenly;
 
     .Biography img {
@@ -70,13 +70,13 @@ body {
         text-align: left;
         justify-content: center;
         margin-top: 39px;
-        margin-left: 27px;
+
 
         .bio-head,
         .bio-text,
         .bio-bq p {
             margin: 0px;
-            padding-bottom: 36px;
+            margin-bottom: 36px;
         }
 
         .bio-bq {
@@ -91,12 +91,33 @@ body {
             margin-bottom: 18px;
         }
     }
-
-
-
-
-
 }
+
+    .tm{
+        display: grid;
+        grid-template-areas: 
+        "a b c d";
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .tm-links{
+        grid-area: a; 
+        transform: rotate(-90deg);
+        margin: auto;
+    }
+    .tm-img{
+        grid-area: b; 
+    }
+    .tm-head{
+        grid-area: c; 
+    }
+    .tm-bq{
+        grid-area: d; 
+    }
+
+
+
+
+
 
 
 
