@@ -119,6 +119,14 @@ address {
     text-align: center;
 }
 
+.tm-links p{
+    transform: rotate(-90deg);
+}
+.tm-head h2{
+    transform: rotate(-90deg);
+
+}
+
 /*раздел Strong points*/
 .sp-title {
     font-family: Playfair Display;
