@@ -102,7 +102,7 @@ body {
     margin: 150px 1.39% 150px 1.39%;
     padding-left: 8.26%;
     padding-right: 8.19%;
-    justify-content: center;
+    justify-content: space-evenly;
 
 
     .tm-links {

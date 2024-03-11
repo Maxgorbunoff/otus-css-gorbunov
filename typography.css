@@ -124,6 +124,8 @@ address {
 }
 .tm-head h2{
     transform: rotate(-90deg);
+    margin-top: 100%;
+    margin-right: 42%;
 
 }
 
