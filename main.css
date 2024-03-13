@@ -3,7 +3,6 @@ body {
     min-width: 350px;
     margin: 0 auto;
     padding: 0;
-
 }
 
 .header {
@@ -43,7 +42,6 @@ body {
         .hero-title {
             padding-top: 90px;
         }
-
     }
 }
 
@@ -70,7 +68,6 @@ body {
         text-align: left;
         justify-content: center;
         margin-top: 39px;
-
 
         .bio-head,
         .bio-text,
@@ -104,44 +101,60 @@ body {
     padding-right: 8.19%;
     justify-content: space-evenly;
 
-
     .tm-links {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         grid-area: a;
+        writing-mode: vertical-rl;
+        justify-content: center;
+        margin-top: 119%;
+
 
         a:link {
             color: black;
             text-decoration: none;
         }
 
-        .text-strong:first-child {
-            margin-top: 192px;
-            margin-left: 85px;
-        }
-
-        .text-strong:nth-child(2) {
-            margin-top: 203px;
-            margin-left: 78px;
-        }
-
-        .text-strong:last-child {
-            margin-top: 203px;
-            margin-left: 78px;
+        .text-strong {
+            padding-top: 15%;
+            padding-right: 6%;
         }
     }
 
     .tm-img {
         grid-area: b;
         margin-left: 1.72%;
-
     }
 
     .tm-head {
+        display: flex;
         grid-area: c;
+        writing-mode: vertical-lr;
+        align-items: baseline;
+        margin-left: 14%;
     }
 
     .tm-bq {
         grid-area: d;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+
+        .bq-testi {
+            margin: 0;
+            margin-bottom: 42px;
+        }
+
+        .bq-testi p {
+            width: 221px;
+        }
+
+        .tm-bq-img {
+            display: block;
+            width: 221px;
+            height: 333px;
+        }
     }
 }
