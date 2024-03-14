@@ -11,7 +11,7 @@ ul {
 
 }
 
-p{
+p {
     margin: 0px;
     padding: 0;
     margin-block-start: 0em;
@@ -126,17 +126,17 @@ address {
     text-align: center;
 }
 
-.tm-links p{
+.tm-links p {
     transform: rotate(-180deg);
     text-align: left;
 
 }
 
-.text-strong{
-margin: 0px;
+.text-strong {
+    margin: 0px;
 }
 
-.tm-head h2{
+.tm-head h2 {
     transform: rotate(-180deg);
 }
 

@@ -95,7 +95,6 @@ body {
     grid-template-areas:
         "a b c d";
     grid-template-columns: 8.43% 38.8% 8.43% 38.8%;
-    height: 760px;
     margin: 150px 1.39% 150px 1.39%;
     padding-left: 8.26%;
     padding-right: 8.19%;
@@ -124,6 +123,13 @@ body {
     .tm-img {
         grid-area: b;
         margin-left: 1.72%;
+    }
+
+    .tm-img img{
+
+        width: 100%;
+        height: auto;
+        max-height: 760px;
     }
 
     .tm-head {
