@@ -91,35 +91,34 @@ body {
 }
 
 
+
 .Designers {
     height: 677px;
+    text-align: left;
 
-    .des-head{
+    .des-head {
+        display: flex;
         margin-bottom: 30px;
-
-        .des-head h2{
-            justify-content: left;
-        }
+        margin-left: 10%;
     }
 
     .des {
         list-style-type: none;
         display: grid;
-        grid-auto-flow: column;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
-        overflow: scroll;
-        align-items: start;
+        grid-template-columns: 572px 335px 335px 335px;
+        gap: 20px;
+        overflow-x: scroll;
+        align-items: end;
+        margin-left: 20px;
 
-        .des-card img {
-            height: 538px;
+        .des-card:first-child .text-strong {
+            margin-left: 41%;
         }
 
-        .des-card .text-strong {
+        .des-card h3 {
             margin-top: 24px;
         }
     }
-
 }
 
 .tm {
