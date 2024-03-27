@@ -90,6 +90,37 @@ body {
     }
 }
 
+
+
+.Designers {
+    height: 677px;
+    text-align: left;
+
+    .des-head {
+        display: flex;
+        margin-bottom: 30px;
+        margin-left: 10%;
+    }
+
+    .des {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 572px 335px 335px 335px;
+        gap: 20px;
+        overflow-x: scroll;
+        align-items: end;
+        margin-left: 20px;
+
+        .des-card:first-child .text-strong {
+            margin-left: 41%;
+        }
+
+        .des-card h3 {
+            margin-top: 24px;
+        }
+    }
+}
+
 .tm {
     display: grid;
     grid-template-areas:
@@ -125,7 +156,7 @@ body {
         margin-left: 1.72%;
     }
 
-    .tm-img img{
+    .tm-img img {
 
         width: 100%;
         height: auto;
