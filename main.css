@@ -30,22 +30,21 @@ body {
 
 /*раздел Mod Studio*/
 .hero {
+    box-sizing: border-box;
     background: url("./img/inside-weather-Uxqlfigh6oE-unsplash.jpg") no-repeat center / cover;
-    padding: 135px 0px 135px 0;
+    padding-top: 10vw;
+    height: 630px;
 
     .hero-content {
-        display: block;
+        display: inline-flex;
+        flex-direction: column;
         box-sizing: border-box;
         background-color: white;
-        width: 690px;
-        height: 360px;
-        margin: 0 auto;
-        padding: 20px 110px 20px 110px;
+        width: 49%;
+        height: 72%;
+        margin: 0 26%;
         justify-content: center;
-
-        .hero-title {
-            padding-top: 90px;
-        }
+        align-items: center;
     }
 }
 
@@ -55,12 +54,13 @@ body {
     display: flex;
     flex-direction: row;
     box-sizing: content-box;
-    height: 840px;
     margin: 150px 9.548% 150px 9.548%;
     justify-content: space-evenly;
-
+}
     .Biography img {
-        width: 39.652%;
+            height: auto;
+            max-height: 840px;
+            aspect-ratio: null;
     }
 
     .bio {
@@ -94,7 +94,7 @@ body {
             margin-bottom: 18px;
         }
     }
-}
+
 
 
 /*раздел Designers*/
@@ -166,11 +166,12 @@ body {
     }
 
     .tm-img img {
-
         width: 100%;
         height: auto;
         max-height: 760px;
     }
+
+    
 
     .tm-head {
         display: flex;

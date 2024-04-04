@@ -55,7 +55,7 @@ address {
 /*hero секция*/
 .hero-title {
     font-family: Playfair Display;
-    font-size: 86px;
+    font-size: 6vw;
     font-weight: 500;
     line-height: 103px;
     text-align: center;
