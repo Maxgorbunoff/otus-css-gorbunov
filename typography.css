@@ -55,7 +55,7 @@ address {
 /*hero секция*/
 .hero-title {
     font-family: Playfair Display;
-    font-size: 86px;
+    font-size: 6vw;
     font-weight: 500;
     line-height: 103px;
     text-align: center;
@@ -77,9 +77,9 @@ address {
 /*Биография*/
 .bio-head {
     font-family: Playfair Display;
-    font-size: 86px;
+    font-size: 6vw;
     font-weight: 500;
-    line-height: 115px;
+    line-height: 8vw;
 }
 
 .bio-text {
@@ -98,11 +98,11 @@ address {
 
 .Biography h2 {
     transform: rotate(-90deg);
-    margin-top: 73px;
-    margin-right: 62px;
+    margin-top: 45%;
+    margin-right: 21%;
 }
 
-/*тексты разделов Designers и Testimonials имеют одинаковую структуру, поэтому сделал общими свойствами*/
+/*тексты раздела Designers*/
 .text-strong {
     font-family: Roboto;
     font-size: 16px;
@@ -119,9 +119,25 @@ address {
 }
 
 /*раздел Testimonials*/
+
+.tm-text-strong {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+}
+
+
+.tm-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
 .bq-testi {
     font-family: Bitter;
-    font-size: 32px;
+    font-size: 2.2vw;
     font-weight: 400;
     line-height: 38px;
     text-align: center;
@@ -148,6 +164,7 @@ address {
     font-weight: 500;
     line-height: 86px;
     text-align: left;
+    margin: 0;
 }
 
 .sp-list {
@@ -156,7 +173,7 @@ address {
     font-weight: 400;
     line-height: 41px;
     text-align: left;
-
+    margin: 0;
 }
 
 /*раздел footer*/
@@ -166,6 +183,7 @@ address {
     font-weight: 500;
     line-height: 21.9px;
     text-align: center;
+    color: white;
 
 }
 
@@ -175,6 +193,7 @@ address {
     font-weight: 900;
     line-height: 28.13px;
     text-align: center;
+    color: white;
 }
 
 .foot-copy {
@@ -183,4 +202,5 @@ address {
     font-weight: 400;
     line-height: 19px;
     text-align: right;
+    color: white;
 }
