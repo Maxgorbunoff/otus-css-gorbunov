@@ -55,7 +55,7 @@ address {
 /*hero секция*/
 .hero-title {
     font-family: Playfair Display;
-    font-size: 6vw;
+    font-size: 86px;
     font-weight: 500;
     line-height: 103px;
     text-align: center;
@@ -141,6 +141,12 @@ address {
     font-weight: 400;
     line-height: 38px;
     text-align: center;
+}
+
+@media (min-width: 1441px) {
+    .bq-testi {
+        font-size: 32px;
+    }
 }
 
 .tm-links p {
