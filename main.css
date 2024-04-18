@@ -41,9 +41,8 @@ body {
         flex-direction: column;
         box-sizing: border-box;
         background-color: white;
-        width: 49%;
-        height: 72%;
-        margin: 0 26%;
+        width: 690px;
+        height: 360px;
         justify-content: center;
         align-items: center;
     }
