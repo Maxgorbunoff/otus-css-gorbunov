@@ -4,7 +4,12 @@ body {
     min-width: 350px;
     margin: 0 auto;
     padding: 0;
+    scrollbar-gutter: stable;
 }
+
+.scroll-lock {
+    overflow: hidden;
+  }
 
 @media (max-width: 766px) {
     body {
@@ -22,19 +27,41 @@ body {
     justify-content: space-between;
     padding: 0px 23px 0px 23px;
 
-    .header-list-li {
-        display: inline-block;
-        margin-left: 3vw;
+    .header-list {
+        display: flex;
+        width: 1195px;
+        height: 54px;
+        justify-content: end;
+        margin-right: 55px;
 
-        a:link {
-            color: black;
-            text-decoration: none;
+        .header-list-li {
+            display: inline-flex;
+            margin-right: 55px;
+            margin-top: 15px;
+
+            a:link {
+                color: black;
+                text-decoration: none;
+            }
         }
+
+        .popup-icon {
+            position: absolute;
+            top: 4.5%;
+            left: 93.5%;
+            width: 54px;
+            height: 54px;
+            background: url(./img/button.png) no-repeat center / contain;
+            border: none;
+        }
+
     }
 }
 
 @media (max-width: 766px) {
-    .header {
+
+    .header,
+    .popup-icon {
         display: none;
     }
 }
@@ -606,7 +633,7 @@ body {
         flex-direction: column;
         margin-top: 80px;
         height: 193px;
-        
+
 
         .foot-text {
             margin-left: 260px;
@@ -628,3 +655,23 @@ body {
 
     }
 }
+
+.openDialogBtn{
+    background: url(./img/button.png);
+    width: 54px;
+    height: 54px;
+    border: none;
+    margin: 0;
+}
+dialog {
+    position: fixed;
+    height: 250px;
+    width: 350px;
+    border: none;
+    padding: 0;
+    background-color: #FFFFFF;
+  }
+
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
