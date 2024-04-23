@@ -27,6 +27,13 @@ h2 {
     margin-inline: 0px;
 }
 
+@media (max-width: 766px) {
+    h2 {
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+}
+
 address {
     font-family: Roboto;
     font-size: 16px;
@@ -73,9 +80,29 @@ address {
 
 }
 
+@media (max-width: 766px) {
+    .hero-title {
+        font-size: 70px;
+        font-weight: 400;
+        line-height: 93.31px;
+    }
+
+    .hero-sub-title {
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+}
+
 
 /*Биография*/
 .bio-head {
+    font-family: Playfair Display;
+    font-size: 6vw;
+    font-weight: 500;
+    line-height: 8vw;
+}
+
+.bio-head-mobile {
     font-family: Playfair Display;
     font-size: 6vw;
     font-weight: 500;
@@ -89,17 +116,47 @@ address {
     line-height: 21px;
 }
 
-.bio-bq {
+
+.bio-bq-text {
     font-family: Bitter;
     font-size: 26px;
     font-weight: 400;
     line-height: 31px;
 }
 
-.Biography h2 {
+.biography h2 {
     transform: rotate(-90deg);
     margin-top: 45%;
     margin-right: 21%;
+}
+
+@media (max-width: 766px) {
+
+    .bio-head-mobile {
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 85.31px;
+
+    }
+
+    .biography h2 {
+        transform: rotate(0deg);
+        margin: 0;
+    }
+
+    .bio-text-mobile {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+
+    .bio-bq-text-mobile {
+        font-family: Bitter;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 36px;
+    }
 }
 
 /*тексты раздела Designers*/
@@ -110,7 +167,6 @@ address {
     line-height: 18.75px;
 }
 
-
 .text {
     font-family: Roboto;
     font-size: 16px;
@@ -119,14 +175,12 @@ address {
 }
 
 /*раздел Testimonials*/
-
 .tm-text-strong {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
     line-height: 18.75px;
 }
-
 
 .tm-text {
     font-family: Roboto;
@@ -152,7 +206,6 @@ address {
 .tm-links p {
     transform: rotate(-180deg);
     text-align: left;
-
 }
 
 .text-strong {
@@ -161,6 +214,22 @@ address {
 
 .tm-head h2 {
     transform: rotate(-180deg);
+}
+
+@media (max-width: 766px) {
+    .tm-links p {
+        transform: rotate(0deg);
+    }
+
+    .tm-head h2 {
+        transform: rotate(0deg);
+    }
+
+    .bq-testi {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 36px;
+    }
 }
 
 /*раздел Strong points*/
@@ -180,6 +249,30 @@ address {
     line-height: 41px;
     text-align: left;
     margin: 0;
+}
+
+@media (max-width: 766px) {
+    .sp-title {
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 46px;
+        text-align: left;
+    }
+
+    .sp-list {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+
+}
+
+.menu {
+    font-family: Bitter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+
 }
 
 /*раздел footer*/
